@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="WeirdCityRP"
+           fetch="https://github.com/WeirdCityRP/" />
+
+  <default revision="alpha"
+           remote="WeirdCityRP"
+           sync-c="true"
+           sync-j="4" />
+
+  <!-- Weird City Roleplay Resources -->
+  <project path="server-data/resources/[weirdcityrp]/w-base" name="w-base" />
+  <project path="server-data/resources/[weirdcityrp]/w-chat" name="w-chat" />
+  <project path="server-data/resources/[weirdcityrp]/w-loading-screen" name="w-loading-screen" />
+
+  <!-- FiveM -->
+  <project path="server" name="fivem_binaries_linux" revision="master" />
+  <project path="server-data" name="cfx-server-data" />
+
+</manifest>

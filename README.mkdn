@@ -1,0 +1,15 @@
+Weird City Roleplay
+===================
+
+Getting started
+---------------
+
+To get started with Weird City Roleplay, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the WeirdCityRP trees, use a command like this:
+```
+repo init -u git://github.com/WeirdCityRP/manifest.git -b alpha
+```
+Then to sync up:
+```
+repo sync
