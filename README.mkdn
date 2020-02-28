@@ -14,6 +14,20 @@ Then to sync up:
 ```
 repo sync
 ```
+
+Before starting server:
+----------------------
+Make sure to rename server-data/configs/key.cfg.template to key.cfg and add your keys in it.
+
+
+How to:
+-------------------
+
+Download binaries:
+```
+bash run.sh
+```
+
 To start the server:
 ```
 cd server-data

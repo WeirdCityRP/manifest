@@ -9,6 +9,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <project path="manifest" name="manifest" >
+    <copyfile src="run.sh" dest="run.sh" />
+  </project>
+
   <!-- Weird City Roleplay Resources -->
   <project path="server-data/resources/[weirdcityrp]/w-base" name="w-base" />
   <project path="server-data/resources/[weirdcityrp]/w-chat" name="w-chat" />
@@ -17,7 +21,7 @@
   <project path="server-data/resources/[weirdcityrp]/w-sync" name="w-sync" />
 
   <!-- FiveM -->
-  <project path="server" name="fivem_binaries_linux" revision="master" />
+  <!-- <project path="server" name="fivem_binaries_linux" revision="master" /> -->
   <project path="server-data" name="cfx-server-data" />
 
 </manifest>
