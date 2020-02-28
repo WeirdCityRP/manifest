@@ -13,3 +13,9 @@ repo init -u git://github.com/WeirdCityRP/manifest.git -b alpha
 Then to sync up:
 ```
 repo sync
+```
+To start the server:
+```
+cd server-data
+bash ../server/run.sh +exec server.cfg
+```
