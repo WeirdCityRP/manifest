@@ -20,6 +20,8 @@
   <project path="server-data/resources/[weirdcityrp]/w-loading-screen" name="w-loading-screen" />
   <project path="server-data/resources/[weirdcityrp]/w-sync" name="w-sync" />
 
+  <project path="server-data/resources/[weirdcityrp]/bob74_ipl" name="bob74_ipl" revision="master" />
+
   <!-- FiveM -->
   <!-- <project path="server" name="fivem_binaries_linux" revision="master" /> -->
   <project path="server-data" name="cfx-server-data" />
